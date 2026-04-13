@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<students>
+    <student>
+        <name>Kunal Datir</name>
+        <class>SY BCS</class>
+        <rollNo>73</rollNo>
+    </student>
+    <student>
+        <name>Naufil Shaha</name>
+        <class>TY BCS</class>
+        <rollNo>61</rollNo>
+    </student>
+    <student>
+        <name>Vashnavi Aringale</name>
+        <class>TY BCS-B</class>
+        <rollNo>07</rollNo>
+    </student>
+    <student>
+        <name>Arpita Kharhar</name>
+        <class>TY BCS-A</class>
+        <rollNo>49</rollNo>
+    </student>
+    <student>
+        <name>Ishika Abbad</name>
+        <class>FY BCS</class>
+        <rollNo>01</rollNo>
+    </student>
+</students>

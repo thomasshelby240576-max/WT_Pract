@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<movieinfo>
+	<movie>
+		<mname>Iron Man</mname>
+		<actor>RDJ</actor>
+		<release>2012</release>
+	</movie>
+	<movie>
+		<mname>Iron Man 2</mname>
+		<actor>RDJ</actor>
+		<release>2014</release>
+	</movie>
+	<movie>
+		<mname>Iron Man 3</mname>
+		<actor>RDJ</actor>
+		<release>2016</release>
+	</movie>
+</movieinfo>

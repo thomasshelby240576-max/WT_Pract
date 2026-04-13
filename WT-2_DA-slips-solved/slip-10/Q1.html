@@ -1,0 +1,20 @@
+<html>
+	<head>
+		<script src="js/jquery-3.7.1.min.js"> </script>
+		<script type="text/javascript"language="javascript"> 
+			$(document).ready(function() {
+				$("#btn1").click(function(){
+					$("p").before("<b>Before paragraph</b>");
+				});
+				$("#btn2").click(function() {
+					$("p").after("After paragraph");
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<p style="border:1;">This is a Paragraph</p>
+		<button id="btn1">Before paragraph</button>
+		<button id="btn2">After paragraph</button>
+	</body>
+</html>

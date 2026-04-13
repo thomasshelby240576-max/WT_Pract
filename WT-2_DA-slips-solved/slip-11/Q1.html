@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script language="javascript">
+      function change(){
+        if(document.frm.txt1.value !="") {
+          document.getElementById("txt").style.color="red";
+          document.getElementById("txt").style.fontSize="18px"; 
+        }
+        else {
+          // Display image on empty textbox
+          document.getElementById("image").style.display = "block";
+        }
+      } 
+    </script>
+  </head>
+  
+  <body>
+    <form name="frm">
+      Enter Name: <input type='text' name="txt1" id='txt' onblur="change()">
+      <input type='button' name="subm" id='sub1' onclick="change()" value="click">
+      
+      <!-- Added image element -->  
+      <img id="image" src="demo.png" style="display:none"> 
+    </form>
+  </body>
+</html>

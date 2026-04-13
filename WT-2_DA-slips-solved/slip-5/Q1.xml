@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<iteminfo>
+  <item id="01">
+	  <iname>Book</iname>
+	  <iprice>400</iprice>
+	  <Quantity>12</Quantity>
+  </item>
+  
+   <item id="02">
+	  <iname>NoteBook</iname>
+	  <iprice>600</iprice>
+	  <Quantity>112</Quantity>
+  </item>
+  
+   <item id="03">
+	  <iname>Mouse</iname>
+	  <iprice>200</iprice>
+	  <Quantity>212</Quantity>
+  </item>
+  
+   <item id="04">
+	  <iname>Keyboard</iname>
+	  <iprice>900</iprice>
+	  <Quantity>182</Quantity>
+  </item>
+  
+   <item id="05">
+	  <iname>Ball</iname>
+	  <iprice>40</iprice>
+	  <Quantity>1212</Quantity>
+  </item>
+ </iteminfo>

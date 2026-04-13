@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JavaScript Example</title>
+  <script type="text/javascript">
+    function displayMessage() {
+      alert('Exams are near, have you started preparing for?');
+    }
+
+    function getNumbersAndDisplaySum() {
+      var firstNumber = prompt('Enter the first number:');
+      var secondNumber = prompt('Enter the second number:');
+
+      // Convert input strings to numbers and calculate the sum
+      var sum = parseFloat(firstNumber) + parseFloat(secondNumber);
+
+      // Display the addition using confirm box
+      var confirmationMessage = 'The sum of ' + firstNumber + ' and ' + secondNumber + ' is ' + sum + '.';
+      confirm(confirmationMessage);
+    }
+  </script>
+</head>
+<body>
+
+  <input type="submit" onclick="displayMessage()" value="Display Message">
+  <input type="submit" onclick="getNumbersAndDisplaySum()" value="Add Two Numbers">
+
+</body>
+</html>

@@ -1,0 +1,2 @@
+<?xml version="1.0"?>
+<CricketTeam><Team country="Australia"><player>Player1</player><runs>100</runs><wicket>2</wicket></Team><Team country="England"><player>Player2</player><runs>150</runs><wicket>3</wicket></Team><Team country="India"><player>Player3</player><runs>120</runs><wicket>1</wicket></Team><Team country="India"><player>Player4</player><runs>80</runs><wicket>2</wicket></Team><Team country="India"><player>Player5</player><runs>110</runs><wicket>4</wicket></Team><Team country="India"><player>Player6</player><runs>90</runs><wicket>3</wicket></Team></CricketTeam>

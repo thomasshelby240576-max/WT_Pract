@@ -1,0 +1,31 @@
+<!DOCTYPEhtml>
+<html>
+<head>
+<title>AJAX Auto Suggestions Example</title>
+<script>
+    function fetchSuggestions(str){
+    if(str.length==0){
+        document.getElementById("suggestions").innerHTML="";
+        return;
+    }
+    var suggestions=['apple','banana','cherry','dates','elderberry','fig','grape','honeydew','kiwi','lemon'];
+    var matches=[];
+    for(var i=0; i< suggestions.length;i++){
+        if(suggestions[i].toLowerCase().startsWith(str.toLowerCase())){
+            matches.push(suggestions[i]);
+        }
+    }
+    if(matches.length>0){
+        document.getElementById("suggestions").innerHTML=matches.join("<br>");
+    } else {
+        document.getElementById("suggestions").innerHTML="No suggestions found";
+    }
+}
+</script>
+</head>
+<body>
+    <h3>Search fruits</h3>
+    <input type="text" onkeyup="fetchSuggestions(this.value)">
+    <div id="suggestions"></div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<bookinfo>
+	<book id="101">
+		<bname>C++</bname>
+		<price>105</price>
+		<auther>XYZ</auther>
+	</book>
+	<book id="102">
+		<bname>Python</bname>
+		<price>200</price>
+		<auther>ABC</auther>
+	</book>
+	<book id="103">
+		<bname>Java</bname>
+		<price>150</price>
+		<auther>QBZ</auther>
+	</book>
+	<book id="104">
+		<bname>React</bname>
+		<price>300</price>
+		<auther>bfs</auther>
+	</book>
+</bookinfo>

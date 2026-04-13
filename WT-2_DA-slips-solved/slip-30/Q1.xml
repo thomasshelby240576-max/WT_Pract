@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bookstore>
+    <Book Category="Yoga">
+        <Book_Title>The Power of Now</Book_Title>
+        <Book_Author>Eckhart Tolle</Book_Author>
+        <Book_Price>19.99</Book_Price>
+    </Book>
+    <Book Category="Yoga">
+        <Book_Title>Light on Yoga</Book_Title>
+        <Book_Author>B.K.S. Iyengar</Book_Author>
+        <Book_Price>24.95</Book_Price>
+    </Book>
+    <Book Category="Story">
+        <Book_Title>To Kill a Mockingbird</Book_Title>
+        <Book_Author>Harper Lee</Book_Author>
+        <Book_Price>12.99</Book_Price>
+    </Book>
+    <Book Category="Technical">
+        <Book_Title>Introduction to Algorithms</Book_Title>
+        <Book_Author>Thomas H. Cormen</Book_Author>
+        <Book_Price>35.50</Book_Price>
+    </Book>
+</Bookstore>
